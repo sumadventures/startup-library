@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambodia Startup Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .feature {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .feature h3 {
+            margin-top: 0;
+        }
+        .cta {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .cta h2 {
+            margin-bottom: 20px;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: white;
+            color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cambodia Startup Library</h1>
+        <p>Your go-to resource for building and scaling your startup in Cambodia</p>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Empowering Cambodian Entrepreneurs</h1>
+            <p>Access localized resources, actionable guides, and a supportive community to confidently build and scale your startup.</p>
+            <a href="#features">Explore Now</a>
+        </div>
+
+        <section id="features" class="features">
+            <div class="feature">
+                <h3>Localized Content</h3>
+                <p>Find guides, templates, and tools tailored to Cambodia's unique startup ecosystem.</p>
+            </div>
+            <div class="feature">
+                <h3>Interactive Tools</h3>
+                <p>Use tools like the MVP Builder, Funding Tracker, and Regulatory Navigator to simplify your startup journey.</p>
+            </div>
+            <div class="feature">
+                <h3>Community & Mentorship</h3>
+                <p>Connect with local mentors, investors, and peers through our vibrant online community.</p>
+            </div>
+            <div class="feature">
+                <h3>Learning Modules</h3>
+                <p>Access step-by-step tutorials, video lessons, and case studies to level up your skills.</p>
+            </div>
+            <div class="feature">
+                <h3>Success Stories</h3>
+                <p>Get inspired by real-world examples of Cambodian startups and their journeys.</p>
+            </div>
+            <div class="feature">
+                <h3>Multilingual Support</h3>
+                <p>Enjoy resources available in Khmer and English for accessibility.</p>
+            </div>
+        </section>
+
+        <div class="cta">
+            <h2>Ready to Build Your Startup?</h2>
+            <a href="#">Join Now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cambodia Startup Library. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
